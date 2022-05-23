@@ -1,0 +1,285 @@
+#INFOFILE1.1 - Do not remove this line!
+FileIdent = CarMaker-Tire-MF61 1
+FileCreator = CarMaker 10.2.1
+
+Description:
+
+
+## General ###############################################################
+Side = left
+StandStill.cLong = 0.01
+StandStill.cSide = 0.2
+StandStill.vMax = 2.0
+
+
+## Visualization #########################################################
+FLoadMax = 10000.0
+NomWidth = 0.195
+RimRadius = 0.193
+
+
+## MF-Tire ###############################################################
+muRoad = 1.0
+
+# [MDI_HEADER]
+MDI_Header.FILE_TYPE = tir
+MDI_Header.FILE_VERSION = 2.0
+MDI_Header.FILE_FORMAT = ASCII
+
+# [UNITS]
+Units.LENGTH = meter
+Units.FORCE = newton
+Units.ANGLE = radians
+Units.MASS = kg
+Units.TIME = second
+
+# [MODEL]
+Model.PROPERTY_FILE_FORMAT = MF_05
+Model.USE_MODE = 14
+Model.FITTYP = 61
+Model.TYRESIDE = Left
+Model.LONGVL = 16.7
+
+# [DIMENSION]
+Dim.UNLOADED_RADIUS = 0.3185
+Dim.WIDTH = 0.205
+Dim.RIM_RADIUS = 0.1905
+Dim.RIM_WIDTH = 0.1524
+Dim.ASPECT_RATIO = 0.60
+
+# [SHAPE]
+
+# [OPERATING]
+OperCond.NOMPRES = 200000.0
+OperCond.INFLPRES = 237971.5
+
+# [VERTICAL]
+Vertical.VERTICAL_STIFFNESS = 236700.0
+Vertical.VERTICAL_DAMPING = 50.0
+Vertical.BREFF = 5.0
+Vertical.DREFF = 0.3
+Vertical.FREFF = 0.1
+Vertical.FNOMIN = 6500.0
+Vertical.Q_RE0 = 1.0088
+Vertical.Q_V1 = 5.643E-4
+Vertical.Q_V2 = 0.0267
+Vertical.Q_FZ2 = 28.95
+Vertical.Q_FCX = 0.0
+Vertical.Q_FCY = 0.0
+Vertical.PFZ1 = 0.6078
+
+# [STRUCTURAL]
+Structur.LONGITUDINAL_STIFFNESS = 263801.7
+Structur.PCFX1 = 0.007999
+Structur.PCFX2 = 0.0
+Structur.PCFX3 = 2.806
+Structur.LATERAL_STIFFNESS = 224409.4
+Structur.PCFY1 = 0.1017
+Structur.PCFY2 = 0.0
+Structur.PCFY3 = 0.5671
+
+# [CONTACT]
+Contact.Q_RA1 = 0.7875
+Contact.Q_RA2 = 0.3501
+
+# [RANGE]
+Range.KPUMIN = -0.30
+Range.KPUMAX = 0.30
+Range.ALPMIN = -0.1745
+Range.ALPMAX = 0.1745
+Range.CAMMIN = -0.1047
+Range.CAMMAX = 0.1047
+Range.FZMIN = 400.0
+Range.FZMAX = 8500.0
+Range.PRESMIN = 10000.0
+Range.PRESMAX = 1000000.0
+
+# [SCALING]
+Scale.LFZO = 1.0
+Scale.LCX = 1.0
+Scale.LMUX = 1.0
+Scale.LEX = 1.0
+Scale.LKX = 1.0
+Scale.LHX = 1.0
+Scale.LVX = 1.0
+Scale.LGAX = 1.0
+Scale.LCY = 1.0
+Scale.LMUY = 1.0
+Scale.LEY = 1.0
+Scale.LKY = 1.0
+Scale.LHY = 1.0
+Scale.LVY = 1.0
+Scale.LGAY = 1.0
+Scale.LTR = 1.0
+Scale.LRES = 1.0
+Scale.LGAZ = 1.0
+Scale.LXAL = 1.0
+Scale.LYKA = 1.0
+Scale.LVYKA = 1.0
+Scale.LS = 1.0
+Scale.LGYR = 1.0
+Scale.LMX = 1.0
+Scale.LVMX = 1.0
+Scale.LMY = 1.0
+Scale.LMP = 1.0
+Scale.LKYC = 1.0
+Scale.LKZC = 1.0
+
+# [LONGITUDINAL]
+Long.PCX1 = 1.6
+Long.PDX1 = 1
+Long.PDX2 = -0.1
+Long.PDX3 = 0.0
+Long.PEX1 = 0.0
+Long.PEX2 = 0.0
+Long.PEX3 = 0.0
+Long.PEX4 = 0.0
+Long.PKX1 = 16.0
+Long.PKX2 = 0.0
+Long.PKX3 = 0.0
+Long.PHX1 = 0.0
+Long.PHX2 = 0.0
+Long.PVX1 = 0.0
+Long.PVX2 = 0.0
+Long.RBX1 = 8.3
+Long.RBX2 = 5.0
+Long.RBX3 = 0.0
+Long.RCX1 = 0.9
+Long.REX1 = 0.0
+Long.REX2 = 0.0
+Long.RHX1 = 0.0
+Long.PPX1 = 0.0
+Long.PPX2 = 0.0
+Long.PPX3 = 0.0
+Long.PPX4 = 0.0
+
+# [OVERTURNING]
+OverTurn.QSX1 = 0.0
+OverTurn.QSX2 = 0.0
+OverTurn.QSX3 = 0.0
+OverTurn.QSX4 = 5.0
+OverTurn.QSX5 = 1.0
+OverTurn.QSX6 = 10.0
+OverTurn.QSX7 = 0.0
+OverTurn.QSX8 = 0.0
+OverTurn.QSX9 = 0.4
+OverTurn.QSX10 = 0.0
+OverTurn.QSX11 = 5.0
+OverTurn.QSX12 = 0.0
+OverTurn.QSX13 = 0.0
+OverTurn.QSX14 = 0.0
+OverTurn.PPMX1 = 0.0
+
+# [LATERAL]
+Lat.PCY1 = 1.2707
+Lat.PDY1 = 2.3390
+Lat.PDY2 = -0.4131
+Lat.PDY3 = 0.2537
+Lat.PEY1 = 0.2669
+Lat.PEY2 = -0.2508
+Lat.PEY3 = -0.14
+Lat.PEY4 = 0.1071
+Lat.PEY5 = -9.3323
+Lat.PKY1 = -1.0148e3
+Lat.PKY2 = 0.5199
+Lat.PKY3 = 0.0268
+Lat.PKY4 = 0.0046
+Lat.PKY5 = 0.3179
+Lat.PKY6 = 0.7283
+Lat.PKY7 = 0.4413
+Lat.PHY1 = -0.01
+Lat.PHY2 = -0.0102
+Lat.PVY1 = -0.0739
+Lat.PVY2 = 0.0135
+Lat.PVY3 = -0.1272
+Lat.PVY4 = -0.0804
+Lat.RBY1 = 4.9
+Lat.RBY2 = 2.2
+Lat.RBY3 = 0.0
+Lat.RBY4 = 0
+Lat.RCY1 = 1
+Lat.REY1 = 0
+Lat.REY2 = 0
+Lat.RHY1 = 0
+Lat.RHY2 = 0
+Lat.RVY1 = 0
+Lat.RVY2 = 0
+Lat.RVY3 = 0
+Lat.RVY4 = 20
+Lat.RVY5 = 2
+Lat.RVY6 = 10
+Lat.PPY1 = 5.6914
+Lat.PPY2 = 6.7022
+Lat.PPY3 = 2.0001
+Lat.PPY4 = 28.3802
+Lat.PPY5 = 1.3637
+
+# [ROLLING]
+Roll.QSY1 = 0.01
+Roll.QSY2 = 0.0
+Roll.QSY3 = 4e-4
+Roll.QSY4 = 4e-5
+Roll.QSY5 = 0.0
+Roll.QSY6 = 0.0
+Roll.QSY7 = 0.85
+Roll.QSY8 = -0.4
+
+# [ALIGNING]
+Align.QBZ1 = 10
+Align.QBZ2 = 0
+Align.QBZ3 = 0
+Align.QBZ4 = 0
+Align.QBZ5 = 0
+Align.QBZ9 = 10
+Align.QBZ10 = 0.000
+Align.QCZ1 = 1.1
+Align.QDZ1 = 0.12
+Align.QDZ2 = 0
+Align.QDZ3 = 0
+Align.QDZ4 = 0
+Align.QDZ6 = 0
+Align.QDZ7 = 0
+Align.QDZ8 = -0.05
+Align.QDZ9 = 0
+Align.QDZ10 = 0.0
+Align.QDZ11 = 0.0
+Align.QEZ1 = 0
+Align.QEZ2 = 0
+Align.QEZ3 = 0
+Align.QEZ4 = 0
+Align.QEZ5 = 0
+Align.QHZ1 = 0
+Align.QHZ2 = 0
+Align.QHZ3 = 0
+Align.QHZ4 = 0
+Align.PPZ1 = 0
+Align.PPZ2 = 0.0
+Align.SSZ1 = 0
+Align.SSZ2 = 0
+Align.SSZ3 = 0
+Align.SSZ4 = 0
+
+# [TURNSLIP]
+Turn.PECP1 = 0.4
+Turn.PECP2 = 0.0
+Turn.PDXP1 = 0.0
+Turn.PDXP2 = 0.0
+Turn.PDXP3 = 0.0
+Turn.PDYP1 = 0.4
+Turn.PDYP2 = 0.0
+Turn.PDYP3 = 0.0
+Turn.PDYP4 = 0.0
+Turn.PKYP1 = 1.0
+Turn.PHYP1 = 1.0
+Turn.PHYP2 = 0.15
+Turn.PHYP3 = 0.0
+Turn.PHYP4 = -4.0
+Turn.QDTP1 = 10.0
+Turn.QBRP1 = 0.1
+Turn.QCRP1 = 0.2
+Turn.QCRP2 = 0.1
+Turn.QDRP1 = 1.0
+Turn.QDRP2 = 0.0
+
+
+## Additional ############################################################
