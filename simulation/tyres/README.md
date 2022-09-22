@@ -3,7 +3,7 @@
 ## Appendix F1. Pacejka-Lite fitting script
 B1965run18.mat — TTC lateral data for front tyre, used with TireDataAnalysis.mlx  
 B1965run24.mat — TTC lateral data for rear tyre, used with TireDataAnalysis.mlx  
-RsqCalc.m — calculates  for Pacejka-Lite  
+RsqCalc.m — calculates R^2 for Pacejka-Lite  
 TireDataAnalysis.mlx — fitting script for Pacejka-Lite  
 errorResponseSurf.m — calculates error for response surface variables  
 lateral_tire_test.mat — lateral test data for fitting script  
